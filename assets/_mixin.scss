@@ -1,0 +1,29 @@
+@mixin siteContainer{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+.container{
+    @include siteContainer()
+}
+
+@mixin primarybtn ($borderRdius:6px,$pad:5px,$wid:100px,$hieght:30px,
+$borNone:none,$color:white,$curs:pointer){
+
+    border-radius: $borderRdius;
+    width: $wid;
+    padding:$pad;
+    background-color:$bcgColor;
+    border: $borNone;
+    height: $hieght;    
+    color: $color;
+    cursor: $curs
+}
+.btn{
+    @include primarybtn();
+    &.secondary{
+        width:200px;
+        height: 40px;
+    }
+}

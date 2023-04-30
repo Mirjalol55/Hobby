@@ -1,0 +1,426 @@
+@import "./normalize";
+@import "./mixin";
+
+header {
+  position: relative;
+}
+.header__img {
+  position: absolute;
+  margin-left: -150px;
+}
+.Hobby {
+  display: flex;
+  justify-content: space-between;
+}
+.Hobby__right {
+  display: flex;
+}
+.Hobby__right h1 {
+  margin-top: 20px;
+  margin-left: 15px;
+  color: $tertiary;
+}
+.Hobby__left {
+  margin-top: 20px;
+}
+.Hobby__left ul li {
+  display: inline-block;
+  margin: 10px 20px;
+}
+.Hobby__left ul li a {
+  font-weight: 550;
+  color: $tertiary;
+}
+.Hobby__left ul li a:hover {
+  color: $primaryColor;
+}
+// second part
+
+.Make {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.Make__right {
+  position: relative;
+}
+.Make__right h1 {
+  font-size: 72px;
+  width: 600px;
+  color: $tertiary;
+  margin-bottom: 10px;
+}
+.Beu {
+  color: $primaryColor;
+}
+.Make__right p {
+  font-size: 18px;
+  line-height: 2rem;
+  width: 550px;
+  color: $tertiary;
+}
+.Shop {
+  display: inline-block;
+  border: 2px solid $primaryColor;
+  border-radius: 100px;
+  padding: 20px;
+  color: black;
+}
+.image {
+  position: absolute;
+  top: 350px;
+  left: 500px;
+}
+.images {
+  position: absolute;
+  left: 150px;
+}
+
+.Make__left img {
+  margin-top: -80px;
+  margin-right: -50px;
+}
+// Ened
+
+.Landd {
+  position: relative;
+  box-shadow: 2px 2px 20px 0 whitesmoke;
+  background-color: #fff;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding: 28px;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+.Landd img {
+  position: absolute;
+  top: -80px;
+  left: -100px;
+}
+.Land__right h1 {
+  width: 300px;
+  font-size: 32px;
+  color: $tertiary;
+  line-height: 40px;
+}
+.Land__right p {
+  color: $tertiary;
+  width: 300px;
+  margin-top: 10px;
+  line-height: 26px;
+}
+.Land__left {
+  display: flex;
+}
+.box {
+  padding: 20px;
+}
+.box h1 {
+  color: $primaryColor;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+// ended
+
+.Gardener {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.Gardener__left {
+  position: relative;
+}
+
+.Gardener__left h1 {
+  color: $tertiary;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.Gardener__left p {
+  color: $tertiary;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.Gardener__left img {
+  position: absolute;
+  left: 150px;
+}
+
+// eneded
+
+.About {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 100px;
+}
+.About__left {
+  position: relative;
+  h1 {
+    color: $tertiary;
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  p {
+    color: $tertiary;
+    font-size: 18px;
+    width: 400px;
+  }
+  .two {
+    margin-top: 20px;
+  }
+  img {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+  }
+  span {
+    margin-top: 20px;
+  }
+}
+
+.About__right {
+  position: relative;
+
+  .box1 {
+    position: absolute;
+    top: 50px;
+    left: -450px;
+    text-align: center;
+    width: 180px;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 8px 9px 42px rgba(12, 169, 65, 0.12);
+    border-radius: 10px;
+    line-height: 26px;
+  }
+  .box2 {
+    position: absolute;
+    top: 170px;
+    left: -250px;
+    text-align: center;
+    width: 180px;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 8px 9px 42px rgba(12, 169, 65, 0.12);
+    border-radius: 10px;
+    line-height: 26px;
+  }
+  .box3 {
+    position: absolute;
+    top: -60px;
+    left: -250px;
+    text-align: center;
+    width: 180px;
+    height: 200px;
+    background: #ffffff;
+    box-shadow: 8px 9px 42px rgba(12, 169, 65, 0.12);
+    border-radius: 10px;
+    line-height: 26px;
+  }
+  .green {
+    position: absolute;
+    top: 220px;
+    left: -300px;
+  }
+  .green2 {
+    position: absolute;
+    top: 120px;
+    left: -120px;
+  }
+  .orange {
+    position: absolute;
+    top: 20px;
+    left: -300px;
+  }
+}
+
+// ended
+
+.Choose {
+  margin-top: 200px;
+}
+.Title {
+  text-align: center;
+  h1 {
+    color: $tertiary;
+    margin-bottom: 15px;
+  }
+  p {
+    color: $tertiary;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+}
+.Choose__items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items__box {
+  position: relative;
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  background: #ffffff;
+  border: 0.5px solid rgba(0, 0, 0, 0.36);
+  border-radius: 37px;
+  padding: 10px;
+  h2 {
+    color: $tertiary;
+  }
+}
+
+.price {
+  position: absolute;
+  left: 45px;
+  top: 310px;
+  h3 {
+    color: $primaryColor;
+  }
+}
+.but {
+  position: absolute;
+  top: 310px;
+  left: 225px;
+}
+.but button {
+  background: #ffffff;
+  border: 0.5px solid rgba(44, 58, 48, 0.36);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+
+// ended
+
+.Ready {
+  margin-bottom: 100px;
+  .Ready__part {
+    background-color: #f8f8f8;
+    border-radius: 19px;
+    padding: 100px;
+    margin-top: 100px;
+    text-align: center;
+    h1 {
+      font-size: 36px;
+      margin-bottom: 40px;
+      color: $tertiary;
+    }
+    p {
+      font-size: 16px;
+      width: 55%;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      color: $tertiary;
+      line-height: 26px;
+    }
+
+    form {
+      border: 2px solid $primaryColor;
+      border-radius: 10px;
+      width: 58%;
+      height: 50px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+input {
+  border: none;
+  background-color: #ffffff;
+  height: 25px;
+  outline: none;
+  margin-top: 5px;
+  padding: 6px;
+}
+input::placeholder {
+  font-size: 18px;
+  padding: 5px;
+}
+.Ready__part {
+  button {
+    width: 200px;
+    border: none;
+    background-color: $primaryColor;
+    color: #f8f8f8;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+}
+// ended
+
+.footer__end {
+  border-bottom: 1px solid #bf7949;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+  margin-bottom: 50px;
+}
+.footer__end-box p {
+  line-height: 25px;
+  width: 290px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.Comp,
+.Sup,
+.email {
+  line-height: 26px;
+  margin-top: 25px;
+  h2 {
+    margin-bottom: 15px;
+  }
+  a {
+    color: $tertiary;
+  }
+}
+
+.face {
+  background-color: $primaryColor;
+  object-fit: contain;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.twit {
+  margin-left: 10px;
+  margin-bottom: 7px;
+}
+
+.treees {
+  position: relative;
+  text-align: center;
+}
+.first {
+  position: absolute;
+  top: -54px;
+  left: 100px;
+}
+.second {
+  position: absolute;
+  top: -54px;
+  left: 300px;
+}
+
+.third {
+  position: absolute;
+  top: -54px;
+  left: 480px;
+}
+
+.fourth {
+  position: absolute;
+  top: -54px;
+  left: 670px;
+}
+.fifth {
+  position: absolute;
+  top: -54px;
+  left: 900px;
+}
